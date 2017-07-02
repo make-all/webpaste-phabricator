@@ -106,7 +106,7 @@
     (xml-mode . "xml")
     (nxml-mode . "xml"))
   "Alist that maps `major-mode' names to language names in Phabricator.
-This is combined with webpaste--default-lang-alist, so only includes
+This is combined with ‘webpaste--default-lang-alist’, so only includes
 additional languages available in Phabricator, and alternate modes missed
 from the default.")
 
